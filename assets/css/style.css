@@ -17141,7 +17141,7 @@ span.sr-only {
   opacity: 1;
 }
 .skill-style-1 li img {
-  max-height: 50px;
+  max-height: 90px;
   transition: var(--transition);
 }
 
