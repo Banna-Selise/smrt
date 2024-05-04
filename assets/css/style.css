@@ -14351,7 +14351,8 @@ div#featured-project-carousel {
   }
 }
 .rn-nav-list .nav-item {
-  flex-basis: 25%;
+  flex-basis: 50%;
+  /* modified */
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
