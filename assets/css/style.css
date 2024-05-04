@@ -17098,10 +17098,11 @@ span.sr-only {
   cursor: pointer;
   margin-top: 0;
   margin-bottom: 20px;
+  height: 80px; 
+  width: 80px; 
   /* padding: 20px 30px;
   flex-basis: 20%;
-  padding: 35px 30px;
-  min-height: 130px; */
+  padding: 35px 30px;*/
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .skill-style-1 li {
