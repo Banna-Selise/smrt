@@ -1,5 +1,21 @@
+
+.cmn-btn {
+  margin-top: 100px;
+}
 @media only screen and (max-width: 1399px) {
   .zoom-80 {
-    transform: scale(0.8) ;
+    transform: scale(0.8);
+  }
+  .rn-section-gap,
+  .rn-section-gapTop,
+  .home-classic .portfolio-style-two {
+    padding: 0px;
+  }
+  .slide {
+    padding-bottom: 0px;
+  }
+  .cmn-btn {
+    margin-bottom: 20px;
+    margin-top: 0px;
   }
 }
