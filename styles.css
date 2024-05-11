@@ -1,4 +1,6 @@
-
+* {
+  scroll-behavior: smooth !important;
+}
 .cmn-btn {
   margin-top: 100px;
 }
