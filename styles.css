@@ -7,6 +7,9 @@ div {
 .rn-skill-area .slide {
   padding-bottom: 0px;
 }
+.rn-testimonial-area {
+  padding-bottom: 80px;
+}
 @media only screen and (max-width: 1399px) {
   .zoom-80 {
     transform: scale(0.8);
