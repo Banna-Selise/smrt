@@ -12855,6 +12855,9 @@ figcaption {
 .slide .social-share-inner-left .social-share li a:hover {
   transform: translateY(-3px);
 }
+.slide .social-share-inner-left .social-share li a:hover img{
+  filter: brightness(0) invert(1);
+}
 .slide .social-share-inner-left .social-share li a:hover svg {
   color: var(--color-white);
 }
@@ -14351,7 +14354,7 @@ div#featured-project-carousel {
   }
 }
 .rn-nav-list .nav-item {
-  flex-basis: 50%;
+  flex-basis: 33.33%;
   /* modified */
   text-align: center;
   margin-top: 0;
