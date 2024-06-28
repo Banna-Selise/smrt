@@ -1,10 +1,20 @@
-
 .sign-meup-btn,
 .get-qt-btn,
 .req-btn {
   margin-top: 100px;
 }
-
+.read-more {
+  color: crimson;
+  cursor: pointer;
+}
+.modal-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #c4cfdd;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 /* .cmn-btn {
   margin-top: 100px;
 }
