@@ -28,6 +28,17 @@
 .send-btn span:hover {
   color: white !important;
 }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 @media only screen and (max-width: 767px) {
   h3 {
     font-size: 30px;
