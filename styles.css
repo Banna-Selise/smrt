@@ -43,6 +43,12 @@ input::-webkit-inner-spin-button {
 .modal-body .banner-modal-body h2:not(:first-child) {
   margin-top: 50px !important;
 }
+.modal-body .banner-modal-body li {
+  color: #212121;
+}
+.modal-body .banner-modal-body li::marker {
+    color: red;
+}
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
