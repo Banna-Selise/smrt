@@ -57,8 +57,27 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+.h1 {
+  font-size: 48px;
+  display: inline;
+}
 @media only screen and (max-width: 767px) {
   h3 {
     font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  .h1 {
+    font-size: 44px;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 424px) {
+  .h1 {
+    font-size: 26px;
   }
 }
