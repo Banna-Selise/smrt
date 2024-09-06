@@ -79,5 +79,18 @@ input[type="number"] {
 @media only screen and (max-width: 424px) {
   .h1 {
     font-size: 26px;
+    display: none;
+  }
+  .h1-mobile {
+    font-size: 26px;
+    display: inline;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .h1 {
+    display: inline;
+  }
+  .h1-mobile {
+    display: none;
   }
 }
