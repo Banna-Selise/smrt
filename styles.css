@@ -85,6 +85,17 @@ input[type="number"] {
     font-size: 26px;
     display: inline;
   }
+  .mobile-mx-16 {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+  }
+  .mobile-mx-8 {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+  }
+  .mobile-ml-16 {
+    margin-left: 8px !important;
+  }
 }
 @media only screen and (min-width: 425px) {
   .h1 {
