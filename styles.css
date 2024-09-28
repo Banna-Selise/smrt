@@ -76,7 +76,13 @@ input[type="number"] {
     font-size: 40px;
   }
 }
-@media only screen and (max-width: 424px) {
+@media only screen and (max-width: 500px) {
+  .mobile-mx-12 {
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
   .h1 {
     font-size: 26px;
     display: none;
@@ -85,19 +91,8 @@ input[type="number"] {
     font-size: 26px;
     display: inline;
   }
-  .mobile-mx-16 {
-    margin-left: 16px !important;
-    margin-right: 16px !important;
-  }
-  .mobile-mx-8 {
-    margin-left: 8px !important;
-    margin-right: 8px !important;
-  }
-  .mobile-ml-16 {
-    margin-left: 8px !important;
-  }
 }
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 501px) {
   .h1 {
     display: inline;
   }
