@@ -100,6 +100,9 @@ input[type="number"] {
     font-size: 26px;
     display: inline;
   }
+  .text-md-center {
+    text-align: left !important;
+  }
 }
 @media only screen and (min-width: 501px) {
   .h1 {
@@ -107,5 +110,8 @@ input[type="number"] {
   }
   .h1-mobile {
     display: none;
+  }
+  .text-md-center {
+    text-align: center !important;
   }
 }
