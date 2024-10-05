@@ -90,6 +90,9 @@ input[type="number"] {
     margin-left: 12px !important;
     margin-right: 12px !important;
   }
+  .px-18 {
+    padding: 0px 18px !important;
+  }
 }
 @media only screen and (max-width: 500px) {
   .h1 {
@@ -118,3 +121,11 @@ input[type="number"] {
 .rn-service:hover img {
   filter: brightness(0) invert() !important;
 }
+.logo1 img {
+  height: 54px;
+  width: 54px;
+}
+.sticky .header-wrapper .logo1 img {
+  max-width: 100%;
+}
+
