@@ -115,3 +115,6 @@ input[type="number"] {
     text-align: center !important;
   }
 }
+.rn-service:hover img {
+  filter: brightness(0) invert() !important;
+}
