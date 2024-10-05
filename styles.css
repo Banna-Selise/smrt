@@ -74,6 +74,9 @@ input[type="number"] {
   h3 {
     font-size: 30px;
   }
+  .pb-md-90 {
+    padding-bottom: 90px !important;
+  }
 }
 @media only screen and (min-width: 1023px) {
   .h1 {
@@ -128,4 +131,3 @@ input[type="number"] {
 .sticky .header-wrapper .logo1 img {
   max-width: 100%;
 }
-
